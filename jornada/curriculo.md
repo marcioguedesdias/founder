@@ -13,6 +13,10 @@ Uma habilidade só entra aqui quando foi aplicada ou testada — não apenas est
 - [x] Descrever jornada do usuário
 - [x] Identificar quando parar de crescer em funcionalidades (feature creep)
 - [x] Compreender escalabilidade de produto
+- [x] Identificar gap de mercado a partir de análise de concorrentes
+- [x] Definir posicionamento de produto com base em diferencial real
+- [x] Reconhecer fosso competitivo — o que não se copia com feature update
+- [x] Aplicar lógica de segmento de entrada para reduzir risco de execução
 - [ ] Product-market fit — lacuna identificada, aprofundar
 - [ ] Métricas de vaidade vs. métricas de decisão — lacuna identificada, aprofundar
 - [ ] MVP — conceito parcial, aprofundar
@@ -54,6 +58,8 @@ Domínios que entendo o suficiente para decidir, contratar e dialogar — sem ne
 - [ ] Data / BI
 - [ ] DevOps / Infra
 - [x] Uso de Find & Replace global no VS Code (Ctrl+Shift+H)
+- [x] Mercado de edtech brasileiro — principais plataformas e diferenciais
+- [x] PKM — Personal Knowledge Management — conceito e ferramentas principais
 
 ---
 
@@ -73,4 +79,4 @@ Capacidades que já possuo e que se traduzem diretamente para o novo contexto.
 - [x] Distinção entre execução e qualidade
 
 ---
-_Última atualização: 01 julho 2026, 18h20_
+_Última atualização: 01 julho 2026, 20h05_

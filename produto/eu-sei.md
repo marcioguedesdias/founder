@@ -135,13 +135,27 @@ ENEM, FUVEST e similares publicam matrizes de conteúdo públicas e estáveis.
 O Eu Sei não cria conteúdo — ancora nas matrizes oficiais.
 
 ## Ideias em aberto
-- [ ] Definir problema central por segmento
+- [x] Definir problema central por segmento
 - [ ] Desenvolver conceito de referência válida por área (ponto 4)
 - [ ] Mapear jornada do usuário principal
 - [ ] Definir modelo de negócio
 - [ ] Avaliar se currículo vivo é funcionalidade central ou diferencial
-- [ ] Pesquisar concorrentes no mercado brasileiro
+- [x] Pesquisar concorrentes no mercado brasileiro
 - [ ] Definir mecanismo de validação de conhecimento
 
+## Fosso competitivo — reflexão estratégica
+
+O diferencial do Eu Sei não é a IA em si.
+Qualquer concorrente com recursos pode adicionar um chat com IA.
+
+O fosso real é o repositório pessoal acumulado ao longo do tempo:
+- Quanto mais o aluno usa, mais o sistema conhece seu perfil
+- O histórico de conhecimento validado não se copia com um update de feature
+- É vantagem composta — o valor cresce com o tempo de uso
+
+Referência: a Estuda.com com a IA Duda é a concorrente mais próxima.
+A distância entre "IA que tira dúvida" e "IA que constrói e valida
+conhecimento + repositório pessoal" é o espaço a defender.
+
 ---
-_Última atualização: 01 julho 2026, 19h54_
+_Última atualização: 01 julho 2026, 20h05_
