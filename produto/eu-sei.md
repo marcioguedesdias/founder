@@ -51,6 +51,42 @@ Não é uma dor única — é uma combinação que varia por perfil:
 - Tana — estruturado, poderoso, curva de aprendizado alta
 - Nenhuma ferramenta atual combina: conversação + validação + publicação
 
+## Concorrentes — Mercado brasileiro de pré-vestibular
+
+### Plataformas mapeadas
+
+| Plataforma | Diferencial principal | O que não tem |
+|---|---|---|
+| Descomplica | Maior plataforma do Brasil, simulados semanais, plano personalizado | Construção de conhecimento via conversação |
+| Stoodi | Neurociência, 30k exercícios, segmentado por carreira | Repositório pessoal do aluno |
+| Filadd | Ciclo Imparável, diagnóstico real, mentoria individual | Validação por conversação |
+| Estuda.com | Raio-X de performance, IA Duda para tirar dúvidas | Conhecimento construído na conversa |
+| Aprova Total | Flashcards automáticos, gamificação, metas | Currículo vivo de conhecimento |
+| Professor Ferretto | Revisões programadas, relevância por ENEM, IA por dificuldade | Auto-montável sem configuração |
+
+### O que todas têm em comum
+Videoaulas, banco de exercícios, simulados, correção de redação e cronograma.
+São plataformas de entrega de conteúdo com alguma camada de acompanhamento.
+
+### Gap de mercado — onde o Eu Sei entra
+
+| Funcionalidade | Mercado atual | Eu Sei |
+|---|---|---|
+| Chat como interface de aprendizado | Não | Sim |
+| Conhecimento construído na conversa | Não | Sim |
+| Repositório pessoal do aluno | Não | Sim |
+| Validação do que foi internalizado | Parcial — simulados | Sim — conversa + simulado |
+| Currículo vivo de conhecimento | Não | Sim |
+| Auto-montável sem configuração | Não | Sim |
+
+### Conclusão estratégica
+O mercado está maduro em entrega de conteúdo e simulados.
+O espaço não ocupado é a camada de construção e validação de conhecimento
+via conversação. Esse é o posicionamento do Eu Sei.
+
+A Estuda.com é a mais próxima — tem IA (Duda) para tirar dúvidas e gerar
+resumos. Mas ainda é suporte ao conteúdo, não construção de conhecimento.
+
 ## Avaliação inicial
 
 ### Pontos fortes
@@ -108,4 +144,4 @@ O Eu Sei não cria conteúdo — ancora nas matrizes oficiais.
 - [ ] Definir mecanismo de validação de conhecimento
 
 ---
-_Última atualização: 01 julho 2026, 19h48_
+_Última atualização: 01 julho 2026, 19h54_
