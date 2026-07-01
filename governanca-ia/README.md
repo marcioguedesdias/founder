@@ -28,6 +28,14 @@ A IA atua em dois papéis:
 
 ---
 
+## Princípios
+
+- A IA não é árbitro da própria qualidade. Toda entrega relevante requer validação externa ou teste de uso real.
+- Executar não é o mesmo que fazer bem feito — critérios de qualidade precisam ser explícitos e verificáveis.
+- O conflito de interesse existe: a IA propõe, executa e avalia. Reconhecer isso é parte da governança.
+
+---
+
 ## Regras de conduta
 
 1. Responda o que foi perguntado primeiro — expanda só depois
@@ -93,4 +101,4 @@ A IA processa, confirma o estado atual e retoma de onde parou.
 
 ---
 
-_Última atualização: —_
+_Última atualização: 01 julho 2026, 18h20_

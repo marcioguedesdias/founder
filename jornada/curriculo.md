@@ -20,7 +20,13 @@ Uma habilidade só entra aqui quando foi aplicada ou testada — não apenas est
 - [ ] Distinção entre usuário e cliente — parcial, direção incorreta, corrigir
 
 ## Fundamentos Técnicos
-- [ ]
+- [x] Git init — inicializar um repositório local
+- [x] Git remote add — conectar repositório local ao GitHub
+- [x] Git add — preparar arquivos para commit
+- [x] Git commit — registrar estado do projeto com mensagem
+- [x] Git push — enviar arquivos para o GitHub
+- [x] Conectar VS Code ao GitHub via terminal
+- [x] Distinguir subdomínio de subdiretório
 
 ## Uso de IA
 - [x] Estruturar governança de IA para um projeto
@@ -62,6 +68,9 @@ Capacidades que já possuo e que se traduzem diretamente para o novo contexto.
 - [ ] Avaliação e contratação de perfis técnicos
 - [x] Pensamento projetual — formação em desenho industrial
 - [x] Leitura e direção de interface — experiência com design em ambiente profissional de agência
+- [x] Pensamento crítico aplicado a sistemas e processos
+- [x] Identificação de conflito de interesse em avaliações
+- [x] Distinção entre execução e qualidade
 
 ---
-_Última atualização: 01 julho 2026, 15h38_
+_Última atualização: 01 julho 2026, 18h20_
