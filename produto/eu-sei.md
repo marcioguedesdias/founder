@@ -9,7 +9,7 @@ Derivado do Projeto Founder — sistema pessoal construído em 01 julho 2026
 durante jornada de transição técnica. O Founder é a versão 0.1 do Eu Sei.
 
 ## Público-alvo (hipóteses iniciais)
-- Estudantes de cursos pré-vestibulares
+- Estudantes de cursos pré-vestibulares ← segmento de entrada validado
 - Universitários e acadêmicos
 - Pessoas em transição de carreira
 - Founders aprendendo tecnologia
@@ -74,6 +74,30 @@ não o ponto de partida. Segmento mais promissor para início: pré-vestibular
 ## Próxima decisão crítica
 Definir para quem construir primeiro.
 
+## Segmento de entrada — Pré-vestibular
+
+### Por que este segmento
+- Dor específica, prazo definido e critério claro de sucesso
+- Disposição de pagamento comprovada (mercado de cursinhos é bilionário)
+- Conteúdo já definido pelas próprias instituições — ENEM, FUVEST, UNICAMP
+- Não exige curadoria própria de conteúdo — ancora nas matrizes oficiais
+
+### Como o Eu Sei se encaixa
+- O aluno estuda pela apostila do cursinho
+- O Eu Sei registra, valida e mapeia o que foi aprendido
+- Cruza com a matriz de conteúdo da prova-alvo
+- Aponta lacunas com precisão: "60% de Biologia dominado — lacunas em Genética e Ecologia"
+
+### Validação como mecanismo natural
+- Simulado baseado na matriz oficial da prova
+- Gabarito e critério de aprovação já existem
+- Resultado é mensurável e comparável
+
+### Resolução do problema de referência válida (ponto 4)
+No segmento vestibular, a referência é definida pela própria instituição.
+ENEM, FUVEST e similares publicam matrizes de conteúdo públicas e estáveis.
+O Eu Sei não cria conteúdo — ancora nas matrizes oficiais.
+
 ## Ideias em aberto
 - [ ] Definir problema central por segmento
 - [ ] Desenvolver conceito de referência válida por área (ponto 4)
@@ -84,4 +108,4 @@ Definir para quem construir primeiro.
 - [ ] Definir mecanismo de validação de conhecimento
 
 ---
-_Última atualização: 01 julho 2026, 19h29_
+_Última atualização: 01 julho 2026, 19h48_
