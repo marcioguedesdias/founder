@@ -1,0 +1,215 @@
+
+<h2 class="sr-only">Dashboard do projeto Founder — visão geral do progresso, currículo, roadmap e jornada</h2>
+
+<style>
+  .db-root { padding: 1.5rem 0; font-family: var(--font-sans); }
+  .db-header { margin-bottom: 1.5rem; }
+  .db-title { font-size: 22px; font-weight: 500; color: var(--text-primary); margin: 0 0 4px; }
+  .db-sub { font-size: 14px; color: var(--text-muted); margin: 0; }
+  .db-section { margin-bottom: 2rem; }
+  .db-section-label { font-size: 11px; font-weight: 500; color: var(--text-muted); letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 10px; }
+  .db-grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+  .db-grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .metric-card { background: var(--surface-1); border-radius: var(--radius); padding: 1rem; }
+  .metric-label { font-size: 12px; color: var(--text-muted); margin: 0 0 6px; }
+  .metric-value { font-size: 28px; font-weight: 500; color: var(--text-primary); margin: 0; line-height: 1; }
+  .metric-detail { font-size: 12px; color: var(--text-secondary); margin: 6px 0 0; }
+  .card { background: var(--surface-2); border: 0.5px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; }
+  .progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .progress-row:last-child { margin-bottom: 0; }
+  .progress-label { font-size: 13px; color: var(--text-secondary); width: 180px; flex-shrink: 0; }
+  .progress-bar-wrap { flex: 1; background: var(--surface-1); border-radius: 4px; height: 6px; overflow: hidden; }
+  .progress-bar { height: 6px; border-radius: 4px; transition: width 0.6s ease; }
+  .progress-pct { font-size: 12px; color: var(--text-muted); width: 32px; text-align: right; flex-shrink: 0; }
+  .tag { display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: var(--radius); margin: 3px 3px 3px 0; }
+  .tag-pending { background: var(--bg-warning); color: var(--text-warning); }
+  .tag-done { background: var(--bg-success); color: var(--text-success); }
+  .tag-gap { background: var(--bg-danger); color: var(--text-danger); }
+  .timeline-item { display: flex; gap: 12px; margin-bottom: 14px; align-items: flex-start; }
+  .timeline-item:last-child { margin-bottom: 0; }
+  .timeline-dot { width: 8px; height: 8px; border-radius: 50%; background: #2a78d6; margin-top: 5px; flex-shrink: 0; }
+  .timeline-dot.done { background: #1baf7a; }
+  .timeline-text { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+  .timeline-date { font-size: 11px; color: var(--text-muted); }
+  .area-chip { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: var(--radius); border: 0.5px solid var(--border); margin-bottom: 8px; }
+  .area-chip:last-child { margin-bottom: 0; }
+  .area-icon { font-size: 16px; color: var(--text-muted); }
+  .area-name { font-size: 13px; color: var(--text-secondary); flex: 1; }
+  .area-bar-wrap { width: 80px; background: var(--surface-1); border-radius: 4px; height: 5px; }
+  .area-bar { height: 5px; border-radius: 4px; }
+  .area-pct { font-size: 11px; color: var(--text-muted); width: 28px; text-align: right; }
+  .legend-row { display: flex; gap: 16px; margin-bottom: 8px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--text-secondary); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; }
+</style>
+
+<div class="db-root">
+
+  <div class="db-header">
+    <p class="db-title">Projeto Founder</p>
+    <p class="db-sub">Atualizado em 01 julho 2026, 15h38</p>
+  </div>
+
+  <div class="db-section">
+    <p class="db-section-label">Visão geral</p>
+    <div class="db-grid-4">
+      <div class="metric-card">
+        <p class="metric-label">Habilidades validadas</p>
+        <p class="metric-value">11</p>
+        <p class="metric-detail">de 20 mapeadas</p>
+      </div>
+      <div class="metric-card">
+        <p class="metric-label">Progresso geral</p>
+        <p class="metric-value">55%</p>
+        <p class="metric-detail">currículo vivo</p>
+      </div>
+      <div class="metric-card">
+        <p class="metric-label">Lacunas abertas</p>
+        <p class="metric-value">5</p>
+        <p class="metric-detail">para revisão</p>
+      </div>
+      <div class="metric-card">
+        <p class="metric-label">Sessões registradas</p>
+        <p class="metric-value">1</p>
+        <p class="metric-detail">01 jul 2026</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="db-grid-2">
+
+    <div class="db-section">
+      <p class="db-section-label">Progresso por categoria</p>
+      <div class="card">
+        <div class="legend-row">
+          <span class="legend-item"><span class="legend-dot" style="background:#2a78d6"></span>Em andamento</span>
+          <span class="legend-item"><span class="legend-dot" style="background:#1baf7a"></span>Concluído</span>
+        </div>
+        <div class="progress-row">
+          <span class="progress-label">Fundamentos de produto</span>
+          <div class="progress-bar-wrap"><div class="progress-bar" style="width:71%;background:#1baf7a"></div></div>
+          <span class="progress-pct">71%</span>
+        </div>
+        <div class="progress-row">
+          <span class="progress-label">Uso de IA</span>
+          <div class="progress-bar-wrap"><div class="progress-bar" style="width:100%;background:#1baf7a"></div></div>
+          <span class="progress-pct">100%</span>
+        </div>
+        <div class="progress-row">
+          <span class="progress-label">Decisões técnicas</span>
+          <div class="progress-bar-wrap"><div class="progress-bar" style="width:50%;background:#2a78d6"></div></div>
+          <span class="progress-pct">50%</span>
+        </div>
+        <div class="progress-row">
+          <span class="progress-label">Conhecimentos análogos</span>
+          <div class="progress-bar-wrap"><div class="progress-bar" style="width:30%;background:#2a78d6"></div></div>
+          <span class="progress-pct">30%</span>
+        </div>
+        <div class="progress-row">
+          <span class="progress-label">Soft skills</span>
+          <div class="progress-bar-wrap"><div class="progress-bar" style="width:67%;background:#1baf7a"></div></div>
+          <span class="progress-pct">67%</span>
+        </div>
+        <div class="progress-row">
+          <span class="progress-label">Fundamentos técnicos</span>
+          <div class="progress-bar-wrap"><div class="progress-bar" style="width:0%;background:#2a78d6"></div></div>
+          <span class="progress-pct">0%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="db-section">
+      <p class="db-section-label">Lacunas para revisão</p>
+      <div class="card">
+        <span class="tag tag-gap">Product-market fit</span>
+        <span class="tag tag-gap">Métricas de vaidade vs. decisão</span>
+        <span class="tag tag-pending">MVP — conceito parcial</span>
+        <span class="tag tag-pending">Priorização de backlog</span>
+        <span class="tag tag-pending">Usuário vs. cliente</span>
+        <div style="margin-top: 12px; padding-top: 12px; border-top: 0.5px solid var(--border);">
+          <p style="font-size: 12px; color: var(--text-muted); margin: 0;">
+            <span class="legend-item" style="display:inline-flex"><span class="legend-dot" style="background:#e34948; margin-right:5px"></span>Lacuna real</span>
+            &nbsp;&nbsp;
+            <span class="legend-item" style="display:inline-flex"><span class="legend-dot" style="background:#eda100; margin-right:5px"></span>Parcial</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="db-grid-2">
+
+    <div class="db-section">
+      <p class="db-section-label">Roadmap — áreas técnicas</p>
+      <div class="card">
+        <div class="area-chip">
+          <i class="ti ti-brush area-icon" aria-hidden="true"></i>
+          <span class="area-name">UX / UI</span>
+          <div class="area-bar-wrap"><div class="area-bar" style="width:80%;background:#1baf7a"></div></div>
+          <span class="area-pct">80%</span>
+        </div>
+        <div class="area-chip">
+          <i class="ti ti-database area-icon" aria-hidden="true"></i>
+          <span class="area-name">Banco de dados</span>
+          <div class="area-bar-wrap"><div class="area-bar" style="width:0%;background:#2a78d6"></div></div>
+          <span class="area-pct">0%</span>
+        </div>
+        <div class="area-chip">
+          <i class="ti ti-layout area-icon" aria-hidden="true"></i>
+          <span class="area-name">Front-end</span>
+          <div class="area-bar-wrap"><div class="area-bar" style="width:0%;background:#2a78d6"></div></div>
+          <span class="area-pct">0%</span>
+        </div>
+        <div class="area-chip">
+          <i class="ti ti-server area-icon" aria-hidden="true"></i>
+          <span class="area-name">Back-end</span>
+          <div class="area-bar-wrap"><div class="area-bar" style="width:0%;background:#2a78d6"></div></div>
+          <span class="area-pct">0%</span>
+        </div>
+        <div class="area-chip">
+          <i class="ti ti-cpu area-icon" aria-hidden="true"></i>
+          <span class="area-name">IA</span>
+          <div class="area-bar-wrap"><div class="area-bar" style="width:20%;background:#2a78d6"></div></div>
+          <span class="area-pct">20%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="db-section">
+      <p class="db-section-label">Jornada — linha do tempo</p>
+      <div class="card">
+        <div class="timeline-item">
+          <div class="timeline-dot done"></div>
+          <div>
+            <p class="timeline-text">Repositório estruturado e governança de IA definida</p>
+            <p class="timeline-date">01 jul 2026</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot done"></div>
+          <div>
+            <p class="timeline-text">Papéis mapeados: Founder, PO, Gerente de Projeto</p>
+            <p class="timeline-date">01 jul 2026</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot done"></div>
+          <div>
+            <p class="timeline-text">Questionário de conceitos de produto — 5 validados, 5 lacunas</p>
+            <p class="timeline-date">01 jul 2026</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div>
+            <p class="timeline-text">Revisão das lacunas identificadas</p>
+            <p class="timeline-date" style="color: var(--text-accent);">Próxima sessão</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
